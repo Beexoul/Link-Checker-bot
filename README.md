@@ -20,6 +20,7 @@ pip install discord
 pip install asyncio
 pip install requests
 ```
+
 <br>
 Once the required packages are installed, you can run the bot by running the bot.py file with your Discord bot token.
 <br>
