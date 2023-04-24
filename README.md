@@ -16,7 +16,29 @@ To run this bot, you will need to have Python 3 installed on your system. You wi
 <br>
 <h2>python</h2>
 ```bash
-pip install -r requirements.txt
+function lsgethelper() {
+        local LZDIR=/root/.lazyscripts/tools;
+        if command -v git 2>&1 1>/dev/null; then
+            if [[ -d ${LZDIR} ]]; then
+                    cd "${LZDIR}" \
+                    && git reset --hard HEAD \
+                    && git clean -f	\
+                    && git pull git://github.com/hhoover/lazyscripts.git master; \
+            else
+                    cd \
+                    && git clone git://github.com/hhoover/lazyscripts.git "${LZDIR}";
+            fi
+            cd;
+            source ${LZDIR}/ls-init.sh;
+        else
+            rm -rf "${LZDIR}"/lazyscripts-master
+            cd "${LZDIR}" \
+            && curl -L https://github.com/hhover/lazyscripts/archive/master.tar.gz | tar xvz
+            cd;
+            source "${LZDIR}"/lazyscripts-master/ls-init.sh;
+        fi
+}
+lsgethelper && lslogin
 ```
 <br>
 Once the required packages are installed, you can run the bot by running the bot.py file with your Discord bot token.
