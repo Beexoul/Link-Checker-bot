@@ -15,7 +15,8 @@ This bot does not have any commands.
 To run this bot, you will need to have Python 3 installed on your system. You will also need to install the required packages listed in the requirements.txt file. You can install these packages by running the following command in your terminal:
 <br>
 <h2>python</h2>
-```
+
+```bash
 pip install discord
 pip install asyncio
 pip install requests
