@@ -1,4 +1,4 @@
-<h>LinkOnly Bot</h>
+<H1>LinkOnly Bot</H1><br>
 This bot was built by Shreejal to only allow users to send specific links in a Discord channel.
 
 <h>Functionality</h>
