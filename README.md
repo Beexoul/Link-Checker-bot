@@ -11,6 +11,10 @@ To use this bot, you must have the appropriate permissions to add it to your Dis
 <h2>Commands</h2>
 This bot does not have any commands.
 <br>
+
+<h3>Looks </h3>
+![image](https://user-images.githubusercontent.com/97790932/234054354-9dfbca9e-ec82-479d-9032-04ba63c4094b.png)
+
 <h2>Installation</h2>
 To run this bot, you will need to have Python 3 installed on your system. You will also need to install the required packages listed in the requirements.txt file. You can install these packages by running the following command in your terminal:
 <br>
