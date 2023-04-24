@@ -1,6 +1,6 @@
 <H1>LinkOnly Bot</H1>
 <br>
-This bot was built by Shreejal to only allow users to send specific links in a Discord channel.
+This bot was built by Shreejal & Beexoul  to only allow users to send specific links in a Discord channel.
 <br>
 <h2>Functionality</h2>
 The bot checks each message sent in the designated channel to see if it contains a link. If the link is not a valid YouTube link, the bot will automatically delete the message and send a warning to the user, informing them that they are only allowed to share YouTube content in the channel.
