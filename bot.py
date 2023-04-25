@@ -25,7 +25,7 @@ async def msg_delete(sent):
 
 @bot.event
 async def on_message(message):
-    if not message.author.bot and message.channel.id == 1100075511385952369:
+    if not message.author.bot and message.channel.id == @ourChannel_Id_here :
         yt_v1 = ['https://www.youtube.com/watch?v=', 'https://youtu.be/']
         msg = message.content
         msg_split = msg.split(' ')
