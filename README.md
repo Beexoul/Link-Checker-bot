@@ -1,4 +1,4 @@
-<H1>LinkOnly Bot</H1>
+<H1>Link Checker Bot</H1>
 <br>
 This bot was built by Shreejal & Beexoul  to only allow users to send specific links in a Discord channel.
 <br>
